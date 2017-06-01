@@ -10,7 +10,9 @@
     <form id="form1" runat="server">
     <div>
 
-        5555
+         <asp:TextBox ID="tb_input" runat="server"></asp:TextBox>
+        <asp:Button ID="hash" runat="server" Text="HASH" OnClick="hash_Click" />
+        <asp:Label ID="lbl_resultat" runat="server" Text="Label"></asp:Label>
     
     </div>
     </form>
